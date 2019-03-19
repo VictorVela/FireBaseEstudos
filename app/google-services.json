@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "510348006000",
+    "firebase_url": "https://estudosfirebase-61837.firebaseio.com",
+    "project_id": "estudosfirebase-61837",
+    "storage_bucket": "estudosfirebase-61837.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510348006000:android:10533b094ee7a79f",
+        "android_client_info": {
+          "package_name": "com.ed.opet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510348006000-7p5iegidbr3qju5kesh79r91bhn3eijv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsgMUniJ7_qGd-77zFoKVrKBuJx-PenJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510348006000:android:2a2beca209f314aa",
+        "android_client_info": {
+          "package_name": "com.example.opet.firebaseestudos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510348006000-ogmr355m3v59tkggks0mn9fd8pvece29.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opet.firebaseestudos",
+            "certificate_hash": "2a40f3a6103b9984f93491e019989ea450759b7d"
+          }
+        },
+        {
+          "client_id": "510348006000-7p5iegidbr3qju5kesh79r91bhn3eijv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsgMUniJ7_qGd-77zFoKVrKBuJx-PenJs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510348006000-7p5iegidbr3qju5kesh79r91bhn3eijv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
