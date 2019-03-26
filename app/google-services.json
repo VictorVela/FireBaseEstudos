@@ -54,6 +54,14 @@
           }
         },
         {
+          "client_id": "510348006000-kgtu1qeuf32551anahe2hg1ta55l5pi2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opet.firebaseestudos",
+            "certificate_hash": "bff22b236e4fe8dc50a3219ae009aaf3b3641f47"
+          }
+        },
+        {
           "client_id": "510348006000-7p5iegidbr3qju5kesh79r91bhn3eijv.apps.googleusercontent.com",
           "client_type": 3
         }

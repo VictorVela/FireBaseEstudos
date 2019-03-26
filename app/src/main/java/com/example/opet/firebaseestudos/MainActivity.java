@@ -66,4 +66,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void singin(View view) {
     }
+
+    public void cadastrar(View view) {
+        Intent intent = new Intent(getApplicationContext(), NewUserActivity.class);
+        startActivity(intent);
+    }
 }

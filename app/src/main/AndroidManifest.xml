@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SingUp"></activity>
+        <activity android:name=".SingUp" />
+        <activity android:name=".StarWarsActivity" />
+        <activity android:name=".NewUserActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.opet.firebaseestudos.StarWarsActivity">
+
+    <TextView
+        android:id="@+id/textJSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Star Wars Filmes!!!" />
+    <Button
+        android:text="Baixar RAW"
+        android:onClick="downloadJSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Baixar Com GJON"
+        android:onClick="downloadGSON"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
