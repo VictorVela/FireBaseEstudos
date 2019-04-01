@@ -8,19 +8,30 @@
     tools:context="com.example.opet.firebaseestudos.StarWarsActivity">
 
     <TextView
-        android:id="@+id/textJSON"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Star Wars Filmes!!!" />
-    <Button
-        android:text="Baixar RAW"
-        android:onClick="downloadJSON"
+        android:id="@+id/nomeUsuariologado"
+        />
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <Button
-        android:text="Baixar Com GJON"
-        android:onClick="downloadGSON"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulofilme"/>
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/idepisodio"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/diretorfilme"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:text="sair"
+        />
 
 </LinearLayout>

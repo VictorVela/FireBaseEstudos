@@ -2,57 +2,28 @@ package com.example.opet.firebaseestudos;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.ArrayList;
+
+import javax.xml.transform.Result;
+
 /**
  * Created by opet on 25/03/2019.
  */
 
 public class StarWars {
-    @SerializedName("id")
-    private long ID;
-    private String nomeFilme;
-    private String nomeDiretor;
 
-    public StarWars() {
+    ArrayList<Results> results;
+
+    public StarWars(ArrayList<Results> results){this.results = results;}
+
+    public ArrayList<Results> getResults() {
+        return results;
     }
 
-    public StarWars(long ID, String nomeFilme, String nomeDiretor) {
-        this.ID = ID;
-        this.nomeFilme = nomeFilme;
-        this.nomeDiretor = nomeDiretor;
+    public void setResults(ArrayList<Results> results) {
+        this.results = results;
     }
 
-    public long getID() {
-        return ID;
-    }
-
-    public void setID(long ID) {
-        this.ID = ID;
-    }
-
-    public String getNomeFilme() {
-        return nomeFilme;
-    }
-
-    public void setNomeFilme(String nomeFilme) {
-        this.nomeFilme = nomeFilme;
-    }
-
-    public String getNomeDiretor() {
-        return nomeDiretor;
-    }
-
-    public void setNomeDiretor(String nomeDiretor) {
-        this.nomeDiretor = nomeDiretor;
-    }
-
-    @Override
-    public String toString() {
-        return "StarWars{" +
-                "ID=" + ID +
-                ", nomeFilme='" + nomeFilme + '\'' +
-                ", nomeDiretor='" + nomeDiretor + '\'' +
-                '}';
-    }
 
 
 }
